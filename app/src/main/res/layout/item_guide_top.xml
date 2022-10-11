@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageViewTop"
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/image_top_pick" />
+
+        <ImageButton
+            android:id="@+id/bgIconBookMark"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/bg_bookmark_back"
+            android:clipToOutline="true"
+            app:layout_constraintEnd_toEndOf="@+id/imageViewTop"
+            app:layout_constraintTop_toTopOf="@+id/imageViewTop" />
+
+        <ImageButton
+            android:id="@+id/iconBookMark"
+            android:layout_width="19.2dp"
+            android:layout_height="19.2dp"
+            android:background="@drawable/selector_trip_bookmark"
+            android:clipToOutline="true"
+            app:layout_constraintBottom_toBottomOf="@+id/bgIconBookMark"
+            app:layout_constraintEnd_toEndOf="@+id/bgIconBookMark"
+            app:layout_constraintStart_toStartOf="@+id/bgIconBookMark"
+            app:layout_constraintTop_toTopOf="@+id/bgIconBookMark" />
+
+        <TextView
+            android:id="@+id/txtCategory"
+            android:layout_width="135dp"
+            android:layout_height="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/source_sans_pro"
+            android:gravity="center_vertical"
+            android:text="@string/category"
+            android:textAppearance="@style/guide_top_category"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/imageViewTop"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewTop" />
+
+        <TextView
+            android:id="@+id/txtDesc"
+            android:layout_width="200dp"
+            android:layout_height="47dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/source_sans_pro"
+            android:gravity="top"
+            android:text="@string/ti_u_articl"
+            android:textAppearance="@style/ti_u_articl"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageViewTop"
+            app:layout_constraintStart_toStartOf="@+id/txtCategory"
+            app:layout_constraintTop_toBottomOf="@+id/txtCategory" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

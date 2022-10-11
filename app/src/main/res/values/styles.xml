@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomTextAppearanceTab" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+
+    <!-- TODO: Home Screen -->
+
+    <style name="deals">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#181A25</item>
+    </style>
+
+    <style name="banner_head">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#FCFCFD</item>
+    </style>
+
+    <style name="flights">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FCFCFD</item>
+    </style>
+
+    <!-- TODO: Search Screen -->
+
+    <style name="search">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#292C3D</item>
+    </style>
+
+    <style name="top_destina">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#292C3D</item>
+    </style>
+
+    <style name="t_n_th_nh_p">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FCFCFD</item>
+    </style>
+
+    <style name="t_n_t_n_c">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FCFCFD</item>
+    </style>
+
+    <style name="nearby_attr">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#292C3D</item>
+    </style>
+
+    <style name="near_region">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#FCFCFD</item>
+    </style>
+
+    <style name="near_city">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FCFCFD</item>
+    </style>
+
+    <style name="hotel">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#FCFCFD</item>
+    </style>
+
+
+    <!-- TODO: Trip Screen -->
+
+    <style name="trip_plan">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#292C3D</item>
+    </style>
+
+    <style name="trip_trips">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FF4760</item>
+    </style>
+
+    <style name="trip_bookmark">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#C2C5D6</item>
+    </style>
+
+    <style name="ho_chi_minh">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#FCFCFD</item>
+    </style>
+
+    <style name="wed_15_jun_">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FCFCFD</item>
+    </style>
+
+    <!-- TODO: Guide Screen -->
+
+    <style name="guide">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#292C3D</item>
+    </style>
+
+    <style name="might_need_">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#292C3D</item>
+    </style>
+
+    <style name="see_all">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#FF4760</item>
+    </style>
+
+    <style name="where_do_yo">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#52577A</item>
+    </style>
+
+    <style name="category">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#0048F0</item>
+    </style>
+
+    <style name="top_pick_ar">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#292C3D</item>
+    </style>
+
+    <style name="top_category">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#0048F0</item>
+    </style>
+
+    <style name="top_articl">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#181A25</item>
+    </style>
+
+    <style name="safe_travel">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FCFCFD</item>
+    </style>
+
+    <style name="guide_top_category">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#0048F0</item>
+    </style>
+
+    <style name="ti_u_articl">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#181A25</item>
+    </style>
+
+    <!-- TODO: Detail Screen -->
+
+    <style name="name">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#0A2753</item>
+    </style>
+
+    <style name="bali_indone">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#39414B</item>
+    </style>
+
+    <style name="description">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#39414B</item>
+    </style>
+
+    <style name="add_bookmark">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+
+</resources>

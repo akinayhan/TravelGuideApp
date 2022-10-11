@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.akinayhan.travelguideapp.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.akinayhan.travelguideapp.ui.search.SearchFragment"
+        android:label="@string/search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_navigation_search_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_trip"
+        android:name="com.akinayhan.travelguideapp.ui.trip.TripFragment"
+        android:label="@string/trip_plan"
+        tools:layout="@layout/fragment_trip" >
+        <action
+            android:id="@+id/action_navigation_trip_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_guide"
+        android:name="com.akinayhan.travelguideapp.ui.guide.GuideFragment"
+        android:label="@string/guide"
+        tools:layout="@layout/fragment_guide" >
+        <action
+            android:id="@+id/action_navigation_guide_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.akinayhan.travelguideapp.ui.detail.DetailFragment"
+        android:label="DetailFragment">
+        <argument
+            android:name="travelModel"
+            android:defaultValue="@null"
+            app:argType="com.akinayhan.travelguideapp.data.model.travel.Travel"
+            app:nullable="true"/>
+    </fragment>
+</navigation>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:id="@+id/imageTopDestination"
+            android:layout_width="110dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtCity"
+            android:layout_width="110dp"
+            android:layout_height="23dp"
+            android:fontFamily="@font/source_sans_pro"
+            android:gravity="center_horizontal|top"
+            android:text="@string/test"
+            android:textAppearance="@style/t_n_th_nh_p"
+            app:layout_constraintBottom_toBottomOf="@+id/imageTopDestination"
+            app:layout_constraintEnd_toEndOf="@+id/imageTopDestination"
+            app:layout_constraintStart_toStartOf="@+id/imageTopDestination"
+            app:layout_constraintTop_toTopOf="@+id/imageTopDestination"
+            app:layout_constraintVertical_bias="0.44" />
+
+        <TextView
+            android:id="@+id/txtCountry"
+            android:layout_width="110dp"
+            android:layout_height="20dp"
+            android:fontFamily="@font/source_sans_pro"
+            android:gravity="center_horizontal|top"
+            android:text="@string/near_region"
+            android:textAppearance="@style/t_n_t_n_c"
+            app:layout_constraintBottom_toBottomOf="@+id/imageTopDestination"
+            app:layout_constraintEnd_toEndOf="@+id/imageTopDestination"
+            app:layout_constraintStart_toStartOf="@+id/imageTopDestination"
+            app:layout_constraintTop_toBottomOf="@+id/txtCity"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

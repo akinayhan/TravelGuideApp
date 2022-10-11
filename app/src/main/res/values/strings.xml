@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">TravelGuideApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="successfull">Successful</string>
+    <string name="data_added">Data Added</string>
+    <string name="test">test</string>
+
+
+
+    <!-- TODO: Home Screen -->
+    <string name="top_text">Where your next destination ?</string>
+    <string name="flights">Flights</string>
+    <string name="hotels">Hotels</string>
+    <string name="cars">Cars</string>
+    <string name="taxi">Taxi</string>
+    <string name="deals">DEALS</string>
+    <string name="all">All</string>
+    <string name="transportations">Transportations</string>
+    <string name="banner_head">Where s your next destination?</string>
+
+    <!-- TODO: Search Screen -->
+
+    <string name="search">Search</string>
+    <string name="where_next">Where next ?</string>
+    <string name="top_destination">TOP DESTINATION</string>
+    <string name="top_region">Tokyo</string>
+    <string name="top_city">Japan</string>
+    <string name="nearby_attractions">NEARBY ATTRACTIONS</string>
+    <string name="near_region">Marina Bay</string>
+    <string name="near_city">Singapore</string>
+    <string name="hotel">Hotel</string>
+
+    <!-- TODO: Trip Screen -->
+    <string name="trip_plan">Trip Plan</string>
+    <string name="trips">Trips</string>
+    <string name="bookmark">Bookmark</string>
+
+    <!-- TODO: Guide Screen -->
+    <string name="guide">Guide</string>
+    <string name="transportation">Transportation</string>
+    <string name="might_need_">Might need these</string>
+    <string name="see_all">See all</string>
+    <string name="where_do_yo">A country, a city, a place… or anything</string>
+    <string name="top_pick_ar">Top-pick articles</string>
+    <string name="category">EXPERIENCE</string>
+    <string name="ti_u_articl">Beautiful Alley Scene in Old Town in Europe at Sunset</string>
+
+    <!-- TODO: Detail Screen -->
+
+    <string name="name">Nusa Pedina</string>
+    <string name="bali_indone">Bali, Indonesia</string>
+    <string name="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est vel odio elementum non id venenatis, elementum. Enim augue velit tristique eu viverra. Massa.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Est vel odio elementum non id venenatis, elementum. Enim augue velit tristique eu viverra. Massa.</string>
+    <string name="add_bookmar">Add Bookmark</string>
+
+</resources>

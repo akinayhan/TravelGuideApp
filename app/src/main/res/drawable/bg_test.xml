@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/rectangle_home"  />
+    <item android:drawable="@drawable/bg_button_all"
+        android:gravity="center"
+        android:width="3dp"
+        android:height="3dp"  />
+</layer-list>
