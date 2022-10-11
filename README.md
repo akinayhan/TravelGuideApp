@@ -5,7 +5,8 @@ TravelApplication (Kotlin & MVVM & Hilt & Coroutine)
 # App
 
 ![travel](https://user-images.githubusercontent.com/77548138/195167233-79a47146-867d-4b15-8dd1-941a1f1f82ae.png)
-![Screenshot_20221011_215107](https://user-images.githubusercontent.com/77548138/195175070-901f66d6-4ea1-44d7-94df-0c761693f8de.png)
+
+<a href="url"><img src="https://user-images.githubusercontent.com/77548138/195175070-901f66d6-4ea1-44d7-94df-0c761693f8de.png" align="left" height="540" width="240" ></a>
 
 
 # OutPuts
