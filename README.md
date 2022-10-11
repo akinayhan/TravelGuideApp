@@ -3,11 +3,25 @@ TravelApplication (Kotlin & MVVM & Hilt & Coroutine)
 
 
 # App
+
 ![travel](https://user-images.githubusercontent.com/77548138/195167233-79a47146-867d-4b15-8dd1-941a1f1f82ae.png)
+![Screenshot_20221011_215107](https://user-images.githubusercontent.com/77548138/195175070-901f66d6-4ea1-44d7-94df-0c761693f8de.png)
 
 
 # OutPuts
-[search.webm](https://user-images.githubusercontent.com/77548138/195168417-c67936c5-7f31-4485-9189-859481db7724.webm)
+
+https://user-images.githubusercontent.com/77548138/195173983-3b3520e3-70de-4025-85da-295e80799300.mp4
+
+https://user-images.githubusercontent.com/77548138/195174949-8570cf5d-6148-4890-b6dc-12a3645f1f09.mp4
+
+https://user-images.githubusercontent.com/77548138/195173995-fc00bb92-09fb-4066-b69a-11aec4ff8b23.mp4
+
+https://user-images.githubusercontent.com/77548138/195174596-ad40d2a2-bdd7-4332-899e-1390b1cee66d.mp4
+
+https://user-images.githubusercontent.com/77548138/195174614-51bc2f9e-8c62-46d4-a34b-65612692567e.mp4
+
+
+
 
 
 
